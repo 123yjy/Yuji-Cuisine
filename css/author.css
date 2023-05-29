@@ -1,0 +1,100 @@
+.container {
+    margin: 0 auto;
+    margin-top: 70px !important;
+    width: 70%;
+    /* background-color: skyblue; */
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+
+.author {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    background-color: #fff;
+}
+
+.author .guoxinye-photo {
+    width: 40%;
+    height: 100%;
+    padding: 15px;
+    display: 1;
+}
+
+.guoxinye-photo img {
+    width: 100%;
+    height: 94%;
+}
+
+.authorExplain {
+    width: 60%;
+    padding: 15px;
+    padding-top: 25px;
+    padding-right: 25px;
+}
+
+.authorExplain span {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.authorExplain div {
+    line-height: 24px;
+    height: 40%;
+    margin: 15px 10px;
+    overflow: hidden;
+    /* white-space: nowrap; */
+    text-overflow: ellipsis;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 30px;
+    height: 100%;
+}
+
+li {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+h2 {
+    text-align: center;
+}
+
+li img {
+    display: block;
+    min-width: 345px;
+    width: 345px;
+    height: 30vh;
+    margin: 0;
+    padding: 0;
+    margin: 20px;
+}
+
+
+
+.explain {
+    background-color: #eee1d9;
+    border-radius: 15px;
+    font-size: 14px;
+    width: 70%;
+    margin: 20px;
+    line-height: 22px;
+    margin-left: 100px;
+    padding: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+li .explain h3 {
+    line-height: normal;
+}
